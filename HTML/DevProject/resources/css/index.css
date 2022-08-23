@@ -1,0 +1,37 @@
+.banner {
+    background-color: #4d00ff;
+    color: white;
+    margin-top: 75px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#small-blossom {
+    height: 300px;
+    width: 300px;
+    filter:                                                     
+}
+
+#sakura {
+    color: pink;
+    font-size: 70px;
+}
+
+#definition {
+    color: pink;
+    font-size: 50px;
+}
+
+.bold {
+    font-weight: 900px;
+}
+
+#blossom {
+    height: 300px;
+    width: 300px;
+}
+
+h1 {
+    color: pink;
+    font-size: 70px;
+}

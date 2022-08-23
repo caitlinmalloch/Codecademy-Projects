@@ -1,0 +1,45 @@
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background: url(./resources/pattern.jpeg);
+    background-size: cover;
+}
+
+h4 {
+    font-family:Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h5 {
+    margin: 18.72 px 0;
+    font-family: Helvetica;
+    font-size: 18.72 px;
+    font-weight: 700;
+}
+
+p {
+    font-family: Helvetica;
+}
+
+p span {
+    font-weight: 700;
+    color: blue;
+}
+
+.brushes h4 {
+    background-color: mediumspringgreen;
+}
+
+.frames h4 {
+    background-color: lightcoral;
+
+}
+
+.paint h4 {
+    background-color: skyblue;
+}

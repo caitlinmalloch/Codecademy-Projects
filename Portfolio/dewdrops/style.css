@@ -1,0 +1,629 @@
+/* Global styles 
+----------------------------- */
+html {
+    font-size: 15px;
+    margin: 0;
+}
+
+body {
+    font-family: 'Alegreya', serif;
+    margin: 0;
+    line-height: 25px;
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#button {
+    background-color: #60712F;
+    margin: 0 20px 0 20px;
+    padding: 5px; 
+}
+
+#button:hover {
+    color: #ADEEE3;
+    opacity: 0.7;
+    border: 0.5px solid black;
+    border-radius: 2px;
+}
+
+.section {
+    max-width: 1100px;
+    width: 85%;
+    margin: 50px auto;
+    border-top: 0.5px solid #82C0CC;
+    padding-top: 20px;
+}
+
+#product-img {
+     width: 270px;
+     height: 270px;
+     opacity: 0.85;
+     border: 8px solid white;
+
+}
+
+#product-img:hover {
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+
+}
+
+#ingredient-img {
+    width: 270px;
+    height: 270px;
+    opacity: 0.85;
+    border: 8px solid white;
+
+}
+
+#ingredient-img:hover {
+   opacity: 1;
+   width: 280px;
+   height: 280px;
+
+}
+
+#social-media-icon {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+#social-media-icon:hover {
+    opacity: 0.7;
+    width: 42px;
+    height: 42px;
+    padding: 10px;
+}
+
+
+
+/* Header
+----------------------------- */
+
+header {
+    background-color: #82C0CC;
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.85;
+    font-family: Karla;
+    word-spacing: 2px;
+  
+}
+
+.header-button {
+    background-color: #60712F;
+    margin: 0 20px 0 20px;
+    padding: 5px; 
+}
+
+.header-button:hover {
+    color: white;
+    opacity: 0.7;
+    border: 0.5px solid black;
+    border-radius: 2px;
+}
+
+
+/* Main
+----------------------------- */
+
+main {
+    padding-top: 55px;
+    width: 100%;
+}
+
+#logo {
+    width: 350px;
+    height: 350px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+
+nav {
+    border-top: 0.5px solid #82C0CC;
+    border-bottom: 0.5px solid #82C0CC;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+
+}
+
+nav li {
+    padding: 0 60px;
+
+
+}
+
+.cover {
+    background-image: url(./resources/images/dewdrops_header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    margin: 50px auto;
+}
+
+.quote {
+    background: white;
+    width: 100%;
+    opacity: 0.80;
+    padding: 0;
+    line-height: 50px;
+}
+
+.quote h2 {
+    font-size: 30px;
+    margin: 10px;
+    
+}
+
+.quote h3 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* Team
+----------------------------- */
+
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #EEE4E1;
+    padding: 10px;
+}
+
+.olivia {
+    width: 450px;
+    padding: 20px;
+}
+
+.olivia img {
+    width: 300px;
+    height: 400px;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-bottom: 40px solid white;
+    
+}
+
+.olivia h4 {
+    width: 450px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.olivia h5 {
+    width: 450px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.lily {
+    width: 450px;
+    padding: 20px;
+
+}
+
+.lily img {
+    width: 300px;
+    height: 400px;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-bottom: 40px solid white;
+
+}
+
+.lily h4 {
+    width: 450px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.lily h5 {
+    width: 450px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.lisa {
+    width: 450px;
+    padding: 20px;
+
+}
+
+.lisa img {
+    width: 300px;
+    height: 400px;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-bottom: 40px solid white;
+
+}
+
+.lisa h4 {
+    width: 450px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.lisa h5 {
+    width: 450px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.scarlet {
+    width: 450px;
+    padding: 20px;
+
+}
+
+.scarlet img {
+    width: 300px;
+    height: 400px;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-bottom: 40px solid white;
+
+}
+
+.scarlet h4 {
+    width: 450px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.scarlet h5 {
+    width: 450px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/* Products
+----------------------------- */
+
+.dewdrops {
+    background-color: #EDE7E3;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dewdrops h2 {
+    text-transform: uppercase;
+    font-family: 'Alegreya', serif;
+    padding-top: 20px;
+}
+
+.dewdrops p {
+    margin-bottom: 40px;
+}
+
+.products {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.products div {
+    margin: 0 40px;
+    
+}
+
+.products-section, .ingredients-section {
+    border-bottom: 0.5px solid #60712F;
+}
+
+/* Contact
+----------------------------- */
+.contact {
+    background-color: #EDE7E3;
+    padding-top: 30px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+form p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+input {
+    width: 400px;
+    background-color: white;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Alegreya', serif;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+}
+
+input:hover {
+    border: 3px solid white;
+}
+
+
+
+textarea {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Alegreya', serif;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+}
+
+textarea:hover {
+    border: 3px solid #EDE7E3;
+
+}
+
+
+
+button {
+    width: 400px;
+    height: 40px;
+    background-color: #60712F;
+    font-size: 15px;
+    border: none;
+    font-family: 'Alegreya', serif;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+button:hover {
+    border: 3px solid #16697A;
+    opacity: 0.85;
+}
+
+/* Social Media
+----------------------------- */
+
+.social-media {
+    background-color: #EDE7E3;
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+
+/* Footer
+-----------------------------*/
+
+/* footer {
+    display: grid;
+    grid-template-columns: repeat(5, 180px);
+}
+
+footer span {
+    font-size: 12px;
+    margin: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+*/
+
+/* Responsiveness
+----------------------------- */
+@media only screen and (max-width: 580px) {
+
+    header {
+        background-color: #EDE7E3;
+        width: 100%;
+        padding: 10px 0;
+        position: fixed;
+        z-index: 1;
+        opacity: 0.85;
+        font-family: 'Alegreya';
+        word-spacing: 2px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 10px;
+
+    }
+
+    header span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-button {
+        width: 60%;
+        padding: 0 2px 0 2px;
+        font-size: 7px;
+
+    }
+
+    main {
+        padding-top: 70px;
+    }  
+    
+
+
+
+    #logo {
+        width: 250px;
+        height: 250px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+  
+}
+
+@media only screen and (min-width: 650px) {
+
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        padding: 5px;
+        margin: 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+
+}    
+
+
+
+
+@media only screen and (max-width: 1250px) {
+
+   
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center; 
+        margin-top: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 650px) {
+
+    .olivia {
+        width: 225px;
+    }
+    
+    
+    .olivia img {
+        width: 225px;
+        height: 225px;
+    }
+
+    .olivia h4, h5 {
+        width: 225px;
+    }
+
+    .lily {
+        width: 225px;
+    }
+    
+    
+    .lily img {
+        width: 225px;
+        height: 275px;
+    }
+
+    .lily h4, h5 {
+        width: 225px;
+    }
+
+    .lisa {
+        width: 225px;
+    }
+    
+    
+    .lisa img {
+        width: 225px;
+        height: 275px;
+    }
+
+    .lisa h4, h5 {
+        width: 225px;
+    }
+
+    .scarlet {
+        width: 225px;
+    }
+    
+    
+    .scarlet img {
+        width: 225px;
+        height: 275px;
+    }
+
+    .scarlet h4, h5 {
+        width: 225px;
+    }
+
+    #product-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #ingredient-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    input, textarea, button {
+        width: 80%;
+    }
+
+
+
+
+}    
+
+
+@media only screen and (max-width: 725px) {
+
+    footer {
+        display: flex;
+        
+    }
+
+    footer span {
+        font-size: 7px;
+        margin: 5px;
+    }
+}

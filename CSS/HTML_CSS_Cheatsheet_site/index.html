@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML & CSS Cheatsheet</title>
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS Cheatsheet</h1>
+    </header>
+    
+    <main>
+
+    <div> 
+    <h2>HTML</h2>
+      <table class="tb" id="htmltable">
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span class="code">!DOCTYPE html</span>
+                </td>
+                <td>Declaration</td>
+                <td>Declares the file as HTML. All HTML files need to start with this declaration.</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">html</span>
+                </td>
+                <td>Opening tag</td>
+                <td>After the declaration, the file continues with this opening tag to write in HTML.</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">body</span>
+                </td>
+                <td>Body</td>
+                <td>This opens the body of the HTML document.</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">h1</span>
+                </td>
+                <td>Heading Element</td>
+                <td>There are several heading elements that can be used, which include: h1, h2, h3, h4, h5, and h6. H1 is the most important heading, with h6 being the least important.</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">p</span>
+                </td>
+                <td>Paragraph</td>
+                <td>This tag allows you to construct the paragraph text.</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">a href</span>
+                </td>
+                <td>HREF Attribute</td>
+                <td>This tage using <a></a> creates a hyperlink, which you can use to link a URL.</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">img</span>
+                </td>
+                <td>Insert Image</td>
+                <td>This tag allows you to insert an image. You can specify height and width dimensions. There is also an alt attribute that can be added to support accessibility for the reader.</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>   
+
+    <div>
+    <h2>CSS Selectors</h2>
+      <table class="tb" id="css_selectors_table">
+        <thead>
+            <tr>
+                <th>Selector</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span class="code">p</span>  
+                </td>
+                <td>HTML Element</td>
+                <td>Using p as an example, the selector refers to an HTML element and styles can be added to that element.</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">#</span>  
+                </td>
+                <td>id Selector</td>
+                <td>Use a hash character (#) to refer to an id attribute classified in an element. The id needs to be unique, and can allow for more specific referencing.</td>
+            </tr>
+        <tr>
+            <td>
+                <span class="code">.</span>  
+            </td>
+            <td>Class Selector</td>
+            <td>Using a period (.) to select a class attribute.</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="code">*</span>  
+            </td>
+            <td>Universal Selector</td>
+            <td>Use a star character(*) to select all HTML elements.</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div>
+      <h2>CSS Properties</h2>
+      <table class="tb" id="css_properties_table">
+        <thead>
+            <tr>
+                <th>Property</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>color: </td>
+                <td>This property can apply colors in a wide range. Colors can be specified using a name, such as blue or Tomato. Colors can also be specified using RGB, HEX, HSL, RGBA, and HSLA values.</td>
+            </tr>
+            <tr>
+                <td>background-color: </td>
+                <td>Apply a color to a specific background. Can also apply an image using the property 'background-image'.</td>
+            </tr>
+            <tr>
+                <td>border-style: </td>
+                <td>There are many property values allowed for this property, such as dotted, dashed, solid and none.</td>
+            </tr>
+            <tr>
+                <td>margin: </td>
+                <td>4 ways to specify margin: margin-top, margin-right, margin-bottom, and margin-left.</td>
+            </tr>
+            <tr>
+                <td>padding: </td>
+                <td>Similar to margin, this specifies the space around an element. There are 4 properties to specify padding: padding-top, padding-right, padding-bottom and padding-left.</td>
+            </tr>
+            <tr>
+                <td>text-transform: </td>
+                <td>Can convert the text to uppercase and lowercase.</td>
+            </tr>
+            <tr>
+                <td>font-family: </td>
+                <td>You can import fonts, use web-safe fonts as backups and distinguish between serif and sans-serif fonts.</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+
+    </main>
+
+    <div class="links">
+    <h3>Additional Resources</h3>
+    <p>You can also use the following links to view W3 school's overview of HTML and CSS syntax rules:
+       <div><a href="https://www.w3schools.com/css/default.asp">W3 School HTML</a></div>
+        <div><a href="https://www.w3schools.com/css/default.asp">W3 School CSS</a></div>
+    </p>
+    </div>
+
+</body>
+<footer>
+    <p>Created by Caitlin Malloch, 2022.</p>
+</footer>
+</html>

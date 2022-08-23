@@ -1,0 +1,432 @@
+/* Global styles 
+----------------------------- */
+html {
+    font-size: 20px;
+    margin: 0;
+}
+
+body {
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0;
+    line-height: 1.25rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    max-width: 1100px;
+    width: 85%;
+    margin: 50px auto;
+    border-top: 0.5px solid rgb(100, 54, 60);
+    padding-top: 20px;
+}
+
+#contest-img {
+     width: 270px;
+     height: 270px;
+     opacity: 0.85;
+     border: 8px solid white;
+
+}
+
+#contest-img:hover {
+    opacity: 1;
+    width: 280px;
+    height: 280px;
+
+}
+
+#social-media-icon {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+#social-media-icon:hover {
+    opacity: 0.7;
+    width: 42px;
+    height: 42px;
+    padding: 10px;
+}
+
+
+
+/* Main-Nav
+----------------------------- */
+
+main {
+    padding-top: 55px;
+    width: 100%;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+
+nav {
+    border-bottom: 0.5px solid rgb(142, 53, 74);
+    max-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+
+}
+
+nav li {
+    padding: 0 60px;
+
+
+}
+
+/* Main-Banner
+----------------------------- */
+
+.banner-container {
+    background-image: url(./resources/images/ikebana_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding-top: 50px;
+    margin: 50px auto;
+}
+
+.banner {
+    background: rgb(254, 223, 225);
+    width: 100%;
+    opacity: 0.80;
+    padding: 0;
+    line-height: 50px;
+}
+
+.banner h2 {
+    font-size: 30px;
+    margin: 10px;
+    
+}
+
+.banner h1, h2 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* About
+----------------------------- */
+
+
+.what {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(254, 223, 225);
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(254, 223, 225);
+    padding: 10px;
+}
+
+
+/* Contest Winners
+----------------------------- */
+
+.contest {
+    background-color: rgb(254, 223, 225);
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contest h3 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+}
+
+.contest p {
+    margin-bottom: 40px;
+}
+
+.contest-container {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    margin-top: 20px;
+    border-bottom: 0.5px solid rgb(100, 54, 60);
+    border-top: 0.5px solid rgb(100, 54, 60);
+}
+
+.contest-container div {
+    margin: 0 40px;
+    
+}
+
+/* Upcoming Events
+----------------------------- */
+.events {
+    background-color: rgb(254, 223, 225);;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.events h3 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;;
+    padding-top: 20px;
+}
+
+.events p {
+    margin-bottom: 40px;
+}
+
+.event-container {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    margin-top: 20px;
+    border-bottom: 0.5px solid rgb(100, 54, 60);
+    border-top: 0.5px solid rgb(100, 54, 60);
+}
+
+.event-container div {
+    margin: 0 40px;
+}
+
+
+/* Contact
+----------------------------- */
+.contact {
+    background-color: rgb(254, 223, 225);
+    padding-top: 30px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+form p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+input {
+    width: 400px;
+    background-color: white;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Ibarra Real Nova', serif;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+}
+
+input:hover {
+    border: 3px solid white;
+}
+
+
+
+textarea {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Ibarra Real Nova', serif;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+}
+
+textarea:hover {
+    border: 3px solid white;
+
+}
+
+
+
+button {
+    width: 400px;
+    height: 40px;
+    background-color: rgb(100, 54, 60);
+    font-size: 15px;
+    border: none;
+    font-family: 'Ibarra Real Nova', serif;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+button:hover {
+    border: 3px solid rgb(142, 53, 74);
+    opacity: 0.85;
+}
+
+/* Social Media
+----------------------------- */
+
+.social-media {
+    background-color: rgb(254, 223, 225);
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+
+/* Footer
+-----------------------------*/
+
+/* footer {
+    display: grid;
+    grid-template-columns: repeat(5, 180px);
+}
+
+footer span {
+    font-size: 12px;
+    margin: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+*/
+
+/* Responsiveness
+----------------------------- */
+@media only screen and (max-width: 580px) {
+
+    header {
+        background-color: rgb(254, 223, 225);
+        width: 100%;
+        padding: 10px 0;
+        position: fixed;
+        z-index: 1;
+        opacity: 0.85;
+        font-family: 'Ibarra Real Nova', serif;
+        word-spacing: 2rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 10px;
+
+    }
+
+    header span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        padding-top: 70px;
+    }  
+
+
+    #logo {
+        width: 200px;
+        height: 200px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+  
+}
+
+@media only screen and (min-width: 650px) {
+
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        padding: 5px;
+        margin: 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+
+}    
+
+
+
+
+@media only screen and (max-width: 1250px) {
+
+   
+
+    .contest {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center; 
+        margin-top: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 650px) {
+
+
+    #contest-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #contest-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    input, textarea, button {
+        width: 80%;
+    }
+
+
+
+
+}    
+
+
+@media only screen and (max-width: 725px) {
+
+    footer {
+        display: flex;
+        
+    }
+}
