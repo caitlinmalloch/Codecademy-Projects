@@ -4,67 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="C:\Users\caitl\Desktop\Codecademy Projects\caitlinmalloch.github.io\resources\name background.png" rel="icon">
     <title>Caitlin Malloch</title>
-    <!--Web fonts-->
-    <link href="">
-    <!--Stylesheet-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:00,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 </head>
-
 <body>
-   <!--Header-->
     <header>
-        
-        <!--Navbar-->
-        <nav class="primary-menu">
-            <div class="container-fluid">        
-            
-                <!-- Logo --> 
-                <a href="index.html" class="logo">
-                    <span class="roundpicture">
-                        <img class="roundpictureimg" src="C:\Users\caitl\Desktop\Codecademy Projects\caitlinmalloch.github.io\resources\profilepic.png" title="I'm Cait" alt="Picture of Caitlin Malloch">
-                    </span>
-                </a> 
-                <!-- Logo End -->
-
-        <ul class="breadcrumb">
-            <li class="location"><a href="#">Shop</a></li>
-            <li class="location"><a href="#">Groceries</a></li>
-            <li class="location"><a href="#">Blueberries</a></li>
-            <li class="attribute"><a href="#">Organic</a></li>
-        </ul>
-        <ul class="social-icons">
-            <li class="social-icons-twitter"><a href="https://twitter.com/CaitlinMalloch"></a></li>
-            <li class="social-icons-github"><a href="https://github.com/caitlinmalloch"></a></li>            
-        </ul>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+        <div class="logo">
+            <img src="./resources/images/caitlinmallochlogo.png" alt="">
         </div>
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Resume</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+            </ul>
         </nav>
     </header>
-    <!-- Header-->
 
-    <!--Content-->
-   <div>
-    <section>
-
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Caitlin Malloch</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Full-Stack Developer</p>
+        <img src="./resources/images/profilepic.png" alt="picture of caitlin malloch">
     </section>
-    <section>
 
+    <section class="skills" id="skill">
+        <h2 class="section__title section__title--skills">Skills</h2>
+        <div class="skill">
+            <h3>Front-End Development</h3>
+            <p>I have experience working with front-end technologies, including HTML, CSS, DOM and JavaScript.</p>
+        </div> <!--about-->
+
+        <div class="skill">
+            <h3>Back-End Development</h3>
+            <p></p>
+        </div> <!--about-->
+
+        <div class="skill">
+            <h3>Technologies</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </div> <!--about-->
+
+        <a href="#Projects" class="btn">My Work</a>
     </section>
-   </div> 
-   
-   <!--Footer-->
-   <footer>
-        <div class="links">
-            <h4></h4>
 
+    <!--About Me-->
+    <section class="about-me" id="about"> 
+        <h2 class="section__title section__title--about">About Me</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        <div class="about-me__body">
+            <p></p>
+            <p></p>
         </div>
-   </footer>
-</body>
 
+        <img src="./resources/images/cait2.jpg" alt="a picture of Caitlin in Japan">
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+            <!--Portfolio item 01-->
+            <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__img">
+            </a>
+
+             <!--Portfolio item 02-->
+             <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__img">
+            </a>
+
+             <!--Portfolio item 03-->
+             <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__img">
+            </a>
+
+             <!--Portfolio item 04-->
+             <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__img">
+            </a>
+
+             <!--Portfolio item 05-->
+             <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__img">
+            </a>
+
+             <!--Portfolio item 06-->
+             <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <a href="mailto:caitlin.malloch@gmail.com" class="footer__link">caitlin.malloch@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/caitlinmalloch">GitHub</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/CaitlinMalloch">Twitter</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/caitlin-malloch/">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+</body>
 </html>
