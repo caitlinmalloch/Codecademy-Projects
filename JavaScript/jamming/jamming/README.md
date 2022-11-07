@@ -6,6 +6,6 @@ This project is a website that allows users to search their Spotify library and 
 Spotify API
 
 ## JavaScript Libraries Used
-[React.js](https://reactjs.org/) 
-[npm.js](https://www.npmjs.com/) 
-Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [React.js](https://reactjs.org/) 
+- [npm.js](https://www.npmjs.com/) 
+- Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
