@@ -1,4 +1,5 @@
-# Codecademy Full Stack Engineer Program: React Capstone Project- Jamming
+# Codecademy Full Stack Engineer Program
+# React Capstone Project- Jamming
 
 This project is a website that allows users to search their Spotify library and create new playlists. Using requests with the Spotify API, this API was implemented using the Implicit Grant Flow. The documentation from Spotify can be found here: [Implicit Grant Flow](https://developer.spotify.com/documentation/general/guides/authorization/implicit-grant/).
 
