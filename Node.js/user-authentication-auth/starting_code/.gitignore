@@ -1,0 +1,5 @@
+# Packages for development
+/node_modules
+
+# API and Client IDs
+.env
