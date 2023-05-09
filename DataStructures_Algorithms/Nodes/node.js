@@ -5,14 +5,29 @@ class Node {
   }
 
   setNextNode(node) {
-    this.next = node;
+    if (node instanceof Node || node === null) {
+      this.next = node;
+    } else {
+      throw new Error("Next node must be a member of the Node class.");
+    }
+  }
+
+  getNextNode() {
+    return this.next;
   }
 }
 
-const firstNode = new Node("I am an instance of a Node!");
-const secondNode = new Node("I am the next Node!");
+const strawberryNode = new Node("Berry Tasty");
+const vanillaNode = new Node("Vanilla");
+const coconutNode = new Node("Coconuts for Coconut");
 
-firstNode.setNextNode(secondNode);
-console.log(firstNode);
+vanillaNode.setNextNode(strawberryNode);
+strawberryNode.setNextNode(coconutNode);
+
+let currentNode = vanillaNode;
+while (currentNode) {
+  console.log(currentNode.data);
+  currentNode = currentNode.getNextNode();
+}
 
 module.exports = Node;
