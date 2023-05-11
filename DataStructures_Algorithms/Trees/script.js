@@ -18,3 +18,17 @@ for (let meal = 0; meal < meals.length; meal++) {
 }
 
 menu.print();
+// remove BBQ Chicken from Breakfast
+menu.removeChild("BBQ Chicken");
+// add BBQ Chicken to Dinner
+menu.children[2].addChild("BBQ Chicken");
+
+// remove Yogurt from Dinner
+menu.removeChild("Yogurt");
+// add Yogurt to Breakfast
+menu.children[0].addChild("Yogurt");
+
+console.log("------- Corrected Menu");
+menu.print();
+
+menu.depthFirstTraversal();
